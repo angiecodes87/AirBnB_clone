@@ -6,6 +6,7 @@ to files.
 import json
 import os
 
+
 class FileStorage:
     """
     FileStorage class for serializing and deserializing Python data to files.
