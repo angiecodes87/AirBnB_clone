@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+    <link rel="stylesheet" type="text/css" href="styles/8-places.css">
+    <title>Header and Footer Example</title>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <div class="container">
+        <section class="filters">
+	    <div class="locations">
+	        <div class="filter-title">States</div>
+	        <ul class="popover">
+	            <li><h2>State 1</h2>
+	                <ul>
+                            <li>City 1</li>
+                            <li>City 2</li>
+                            <li>City 3</li>
+                        </ul>
+                    </li>
+                    <li><h2>State 2</h2>
+                        <ul>
+                            <li>City 4</li>
+                            <li>City 5</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <div class="filter-title">Amenities</div>
+                <ul class="popover">
+                    <li>Fake amenity 1</li>
+                    <li>Fake amenity 2</li>
+                    <li>Fake amenity 3</li>
+                </ul>
+            </div>
+            <button class="search-button">Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <article>
+                <h2>Place 1</h2>
+                <div class="price_by_night">$200</div>
+                <div class="information">
+                    <div class="max_guest">Number of guests: 4</div>
+                    <div class="number_rooms">Number of bedrooms: 2</div>
+                    <div class="number_bathrooms">Number of bathrooms: 2</div>
+                </div>
+                <div class="user">Owner: <strong>Fake Owner</strong></div>
+                <div class="description">Description: Fake description text goes here.</div>
+            </article>
+            <article>
+                <h2>Place 2</h2>
+                <div class="price_by_night">$150</div>
+                <div class="information">
+                    <div class="max_guest">Number of guests: 2</div>
+                    <div class="number_rooms">Number of bedrooms: 1</div>
+                    <div class="number_bathrooms">Number of bathrooms: 1</div>
+                </div>
+                <div class="user">Owner: <strong>Another Fake Owner</strong></div>
+                <div class="description">Description: Another fake description goes here.</div>
+            </article>
+        </section>
+    </div>
+
+    <main></main>
+
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+</html>
